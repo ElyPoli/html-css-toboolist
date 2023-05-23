@@ -23,6 +23,16 @@ nav {
     border-bottom: 1px solid #d1d6da;
     background-color: #ffffff;
     height: 65px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+main {
+    padding-top: 25px;
+    background-color: #ffffff;
+    height: 500px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 h1 {
@@ -30,8 +40,24 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #464a53;
+}
+
+ul, li {
+    list-style: none;
+    padding-top: 5px;
+    line-height: 25px;
+}
+
 .padding-left {
     padding-left: 50px;
+}
+
+.padding-top {
+    padding-top: 20px;
 }
 
 .display-inBl {
@@ -48,19 +74,67 @@ h1 {
     width: 1500px;
 }
 
-.button {
+.button-nav {
     border: 1px solid #d1d6da;
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 15px;
 }
 
-.button-select {
+.button-main {
+    border: 1px solid #d1d6da;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.button-blu {
     background-color: #47adf1;
     color: #ffffff;
 }
 
-.button-unselect {
+.button-viola {
+    background-color: #9c72e4;
+    color: #ffffff;
+}
+
+.button-verde {
+    background-color: #64c0a9;
+    color: #ffffff;
+}
+
+.button-arancio {
+    background-color: #f29e33;
+    color: #ffffff;
+}
+
+.button-rosa {
+    background-color: #d863a1;
+    color: #ffffff;
+}
+
+.button-bianco {
     color: #d1d6da;
     background-color: #ffffff;
 }
+
+.spunta {
+    border-radius: 50%;
+    padding: 2px;
+    height: 14px;
+    font-size: 10px;
+    line-height: 8px;
+    margin-right: 5px;
+}
+
+.spunta-verde {
+    border: 1px solid #65c1ab;
+    color: #65c1ab;
+}
+
+.spunta-rossa {
+    border: 1px solid #e73b33;
+    color: #e73b33;
+}
+
+
